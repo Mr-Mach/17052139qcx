@@ -1,0 +1,4 @@
+此项目下程序需在树莓派中运行
+树莓派安装Raspbian系统，配置python3，opencv3.0运行环境，安装GPIO控制，舵机及OLED 屏幕等控制库文件
+启动系统跟随特征目标运行main_tracking.py，若需要观察系统捕捉的画面反馈则再运行程序pc_receiver.py
+其中haarcascade.xml文件为Haar级联分类器文件，可使用opencv自行训练改变特征物，此处选用的是opencv自带的脸部识别级联分类器。
