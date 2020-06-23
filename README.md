@@ -1,2 +1,7 @@
 # 17052139qcx
-此项目为17052139，IBM课程结课作业
+此项目为IBM课程结课作业
+其中Connection_control app文件夹为Androidstudio开发的适用于Android 6.0的手机控制APP，连接探测系统后，可通过tcp传输控制探测系统的驱动方向及通过udp传输接收探测系统摄像头拍摄的画面
+
+其中RaspberrryPi_system文件夹内存储了探测系统的两个不同功能，且文件夹内代码需要在树莓派中运行，树莓派内需配置python3.7，opencv3.0，gpio控制库等对应环境，建议使用树莓派原生操作系统。文件夹中的Unmanned detection system内代码实现接收控制驱动返回拍摄画面。tracking system实现特定标识物的自动追踪，其中haarcascade.xml为人脸识别的级联分类器，可通过更换级联分类器改变系统追踪的物体。
+
+最后附有系统设计文档。
