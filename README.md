@@ -1,4 +1,4 @@
-# 17052139qcx
+# 无人探测系统设计
 此项目为IBM课程结课作业
 其中Connection_control app文件夹为Androidstudio开发的适用于Android 6.0的手机控制APP，连接探测系统后，可通过tcp传输控制探测系统的驱动方向及通过udp传输接收探测系统摄像头拍摄的画面
 
